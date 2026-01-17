@@ -7,6 +7,9 @@ class Calculate:
     
     def decrease(self, num): 
         self.num = self.num - num; 
+        
+    def multiply(self, num): 
+        self.num = self.num * num; 
     
     def display(self): 
         print(self.num)
@@ -14,5 +17,6 @@ class Calculate:
 calculate = Calculate(1)
 calculate.increase(5)
 calculate.decrease(2)
+calculate.multiply(5)
 
 calculate.display()
