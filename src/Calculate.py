@@ -5,10 +5,13 @@ class Calculate:
     def increase(self, num):
         self.num = self.num + num; 
     
+    def multiply(self, num): 
+        self.num = self.num * num; 
+    
     def display(self): 
         print(self.num)
 
 calculate = Calculate(1)
-calculate.increase(5)
+calculate.multiply(5)
 
 calculate.display()
