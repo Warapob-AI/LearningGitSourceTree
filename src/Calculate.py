@@ -11,12 +11,13 @@ class Calculate:
     def multiply(self, num): 
         self.num = self.num * num; 
     
+    def power(self, num): 
+        self.num = self.num ** num; 
+        
     def display(self): 
         print(self.num)
 
 calculate = Calculate(1)
 calculate.increase(5)
-calculate.decrease(2)
-calculate.multiply(5)
 
 calculate.display()
